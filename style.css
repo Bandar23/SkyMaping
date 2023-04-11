@@ -1,0 +1,323 @@
+body{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+   }
+
+header{
+    display: inline-block;
+    color: antiquewhite;
+    text-align: center;
+    vertical-align:top;
+}
+
+header ul {
+    background-color: rgba(0, 0, 0, 0.275);
+    width: 1200px;
+    color: black;
+    list-style:none;
+    height: 10px;
+    padding:50px;
+   margin-top: 20px;
+   text-align: center;
+   vertical-align:top;
+}
+
+li {
+   display: inline;
+   padding-top:80px;
+   margin-top: 50px;
+   vertical-align:top;
+
+   
+}
+a:link{
+   text-decoration:none;
+   color: rgb(141, 116, 68);
+   padding:50px;
+   margin-top: 50px;
+   padding-top:50px;
+   margin-top: 20px;
+
+}
+
+a:visited{
+    color: rgb(107, 100, 84);
+}
+
+a:hover{
+   color: white;
+}
+
+.line{
+ border-bottom: solid#6A5112 1px;
+ width: 700px;
+ position: absolute;
+ left: 50%;
+ right: 50%;
+ animation: animate 5s linear infinite;
+-webkit-animation-name: run;
+-webkit-animation-duration: 3s;
+}
+
+@-webkit-keyframes run {
+0% {
+left: 0;
+}
+100% { 
+left:45%;
+}
+0% {
+left:0%;  
+}
+}
+#Img-Header{
+   float: right;
+   margin-left: auto;
+   margin-bottom: auto;
+   width:300px;
+   height:250px;
+
+}
+
+
+section{
+    margin: 50px;
+    color: white;
+}
+
+.Logo-Brife{
+    margin-top: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right:20px ;
+    width: auto;
+    height: 500px;
+    background-color:#0E0D0D;
+
+}
+
+.Logo{
+   margin-left:110px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+    border-radius: 50px;
+    width: 550px;
+    height:450px;
+    float: left;
+}
+
+.Brife{
+   margin-right:50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+    border-radius: 50px;
+    width: 550px;
+    height:450px;
+    float: right;
+    text-align: center;
+
+}
+#Img-Log{
+    margin-top:100px;
+    margin-left:50px;
+    margin-right:35px;
+    margin-bottom:10px;
+}
+.Brife-H2{
+    margin-top:200px;
+    margin-left:10px;
+    margin-right:35px;
+    margin-bottom:10px;
+    color: #6A5112;
+}
+
+.Brife-Button{
+   border-radius: 50px;
+   border: solid #6A5112 1px;
+   width: 150px;
+   height:50px;
+   background-color: #6A5112;
+   cursor: pointer;
+   color: white;
+   margin-top: 20px;
+
+}
+
+.Brife-Button:hover{
+   background-color:white;
+   color:#6A5112;
+
+}
+.Q-H{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #6A5112; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    margin-top: 200px;
+    margin-bottom: 150px;    
+}
+.Q-H span{
+   background: black;
+   padding:0 10px; 
+   color: white;
+}
+
+.Qeeck-Brife{
+    background-color:#0E0D0D;
+    margin-top:20px;
+    margin-bottom: 3px;
+    border-radius: 50px;
+    padding-top:20px;
+    width: auto;
+    height: 900px;
+    color:#6A5112;
+
+}
+
+.Our-Vision{
+    background:#0E0D0D;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    border-radius: 50px;
+    padding-top: 50px;
+    width: auto;
+    height:300px;
+    color:#6A5112;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.275);
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right:40px ;
+    border-radius: 50px;
+    width: auto;
+    height: 100px;
+}
+
+footer h4{
+   padding:50px;
+   color: #6A5112;
+   text-align: center;
+
+}
+.footer img{
+   float: left;
+
+}
+
+.user-flow{
+    float: left;
+}
+
+/*
+stars P
+*/
+
+.sky-map{
+    background: #0E0D0D;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: auto;
+    height: 900px;
+}
+
+.sky-map img{
+  margin-top:150px;
+}
+
+#starmap6{
+    padding-top:30px;
+}
+
+/* Quick-Planets */
+
+
+.planets{
+    background: rgb(0, 0, 0);
+	height:650px;
+	width:990px;
+	border-radius: 15px;
+	margin: auto;
+	padding-top:50px;
+	margin-top:100px;
+	align-items: center;
+
+
+}
+
+.planets:hover{
+    border:2px solid #6A5112;
+}
+
+
+.review__items {
+	justify-content: space-evenly;
+	width: 250px;
+	padding-left: 170px;
+	align-items: center;
+}
+
+.review__items img {
+	height:350px;
+	width: 550px;
+	border-radius: 50px;
+    margin-left:60px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 15px;
+}
+
+.review__items h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size:20px;
+    padding-left:80px;
+    width:200%;
+}
+
+.review__items p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 14px;
+    padding-left:80px;
+    width:200%;
+}
+
+.review__button {
+	text-align: center;
+	padding: 10px;
+    padding-left: 10px;
+    margin-top:100px;
+    
+    
+}
+
+.review__button #prev {
+	color:#6A5112;
+    border-radius: 50px;
+    height:50px;
+    width:50px;
+	background-color: black;
+    margin-top:200px;
+    float: left;
+    cursor: pointer;
+
+}
+
+.review__button #next {
+	color:#6A5112;
+    border-radius: 50px;
+    height:50px;
+    width:50px;
+	background-color: black;
+    margin-top:200px;
+    cursor: pointer;
+    float: right;
+}
+
+.review__items {
+	display: none;
+}
